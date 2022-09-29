@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+
+  <configSections>
+  </configSections>
+  <connectionStrings>
+    <clear/>
+    <add name="CriminalReportDB" connectionString="server=DESKTOP-M4I2OIK;DataBase=CriminalReportDB;Trusted_Connection=true;" />
+    <add name="Criminal_record.Properties.Settings.CriminalRecordDBConnectionString"
+      connectionString="Data Source=DESKTOP-RS5CJ3S\SQL_SERVER;Initial Catalog=CriminalReportDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False"
+      providerName="System.Data.SqlClient" />
+    <add name="Criminal_record.Properties.Settings.CriminalRecordDBConnectionString1"
+      connectionString="Data Source=DESKTOP-M4I2OIK;Initial Catalog=CriminalReportDB;Integrated Security=True"
+      providerName="System.Data.SqlClient" />
+  </connectionStrings>
+</configuration>
